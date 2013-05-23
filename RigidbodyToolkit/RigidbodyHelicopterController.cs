@@ -1,7 +1,7 @@
 using UnityEngine;
 using System.Collections;
 
-public class CameraBotController : MonoBehaviour {
+public class RigidbodyHelicopterController : MonoBehaviour {
     private const string HORIZONTAL_AXIS = "Horizontal"; 
     private const string VERTICAL_AXIS = "Vertical"; 
     private const string JUMP_BUTTON = "Jump"; 
