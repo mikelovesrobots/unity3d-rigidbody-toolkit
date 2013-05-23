@@ -1,0 +1,10 @@
+.DS_Store
+Library
+Temp
+*.csproj
+*.pidb
+*.sln
+build
+Builds
+*.userprefs
+Assembly-UnityScript*
