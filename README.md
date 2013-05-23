@@ -10,16 +10,17 @@ Make the plugins folder if it doesn't exist.
 Synopsis
 --------
 
-Contains a useful set of rigidbody scripts:
+Contains a variety of mono behaviours for working with rigidbodies.  Mostly
+focused toward rigidbody missiles and other self-powered objects.
 
 InitialRigidbodyForce
 ---------------------
-Use for providing that initial oomph, like a cannonball launch, thrown rock or 
-paper airplane.  Contrast with the built-in ConstantForce, which applies force 
-each update and would be more suitable for a self-powered rigidbody like a
+Use for providing that initial oomph, like a cannonball launch, thrown rock, arrow or 
+paper airplane.  Contrast with the built-in ConstantForce that Unity provides which 
+applies force each update and would be more suitable for a self-powered object like a
 missile, ship, or simulation of gravity.
 
-RigidbodyCourceCorrector
+RigidbodyCourseCorrector
 ------------------------
 If a rigidbody is facing a target (RigidbodyLookAtTransform) and powering toward its goal 
 (ConstantForce - relative forward thrust), you've got a pretty good missile.  But it 
